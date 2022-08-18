@@ -8,7 +8,7 @@ class MyThread extends Thread{
         System.out.println("hello thread");
     }
 }
-public class ThreadDemo {
+public class ThreadDemo1 {
     public static void main(String[] args) {
         Thread t = new MyThread();
         //start方法，就会在操作系统中真的创建一个线程出来（内核中搞个PCB，加入到双线链表中)
